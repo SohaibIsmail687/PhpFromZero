@@ -11,13 +11,13 @@
 return [
     "env" => "prod",
     "enableLog" => true,
-    "baseurl" => "http://localhost:9000",
+    "baseurl" => "http://54.93.33.160:9000",
     "params" => [
         "maintenance" => true,
         "maintenance_msg" => "We are now working on the site. Please see you later"
     ],
     "database" => [
-        "host" => "localhost",
+        "host" => "54.93.33.160",
         "user" => "root",
         "password" => "",
         "driver" => "mysql",
